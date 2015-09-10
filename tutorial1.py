@@ -13,6 +13,8 @@ thickline = LineStyle(4, black)
 rectangle1 = RectangleAsset(100, 100, thinline, blue)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse = EllipseAsset(10, 10, thickline, blue)
+#not finished polygon
+triangle = PolygonAsset(100,100, thinline, green)
 
 
 Sprite(rectangle1, (200,200))
