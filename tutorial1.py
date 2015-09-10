@@ -8,9 +8,11 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 
-rectangle = RectangleAsset(50, 20, thinline, blue)
+rectangle1 = RectangleAsset(50, 20, thinline, blue, 100, 200)
+rectangle2 = RectangleAsset(100,40, thinline,red, 50, 100)
 
-Sprite(rectangle)
+Sprite(rectangle1)
+Sprite(rectangle2)
 
 myapp = App()
 myapp.run()
