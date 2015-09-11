@@ -14,12 +14,13 @@ rectangle1 = RectangleAsset(100, 100, thinline, blue)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse = EllipseAsset(10, 10, thickline, blue)
 #not finished polygon
-triangle = PolygonAsset(100,100, thinline, green)
+triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
 
 
 Sprite(rectangle1, (200,200))
 Sprite(rectangle2, (250, 250))
 Sprite(ellipse,(500, 500))
+Sprite(triangle)
 
 myapp = App()
 myapp.run()
